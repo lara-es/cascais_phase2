@@ -160,3 +160,15 @@ cython_debug/
 #.idea/
 .DS_Store
 all_species.csv
+cascais_data/AMPA_Data_Sample.xlsx
+.gitignore
+cascais_data/bathymetry/Base_batimetrica.dbf
+.gitignore
+cascais_data/bathymetry/Base_batimetrica.sbn
+.gitignore
+cascais_data/bathymetry/Base_batimetrica.sbx
+cascais_data/bathymetry/Base_batimetrica.shp
+cascais_data/bathymetry/Base_batimetrica.shp.xml
+cascais_data/bathymetry/Base_batimetrica.shx
+cascais_data/bathymetry/Base_Batimetricas.lyr
+cascais_data/bathymetry/Base_Batimetricas.lyr.xml

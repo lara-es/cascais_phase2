@@ -34,17 +34,43 @@ Include all the authors that have worked on this submission. It is not obligator
 
 ## ✨ Introduction (250 words max)
 Provide a contextualization of the problem, together with an estimation of its size using real numbers and references. In this section you should demonstrate your understanding of the problem.
-*Write here*
+
+As marine ecosystems undergo global climate change, there is an increasing need to incorporate potential shifts in the distribution of marine taxa into management plans
+
+We propose that the best models—those that effectively describe or predict marine animal distribution patterns at a desired temporal scale without utilizing unnecessarily high-resolution data—are obtained when the temporal characteristics of the animals’ distribution and environmental data sufficiently match the scale of the ecological question and the variability of the ecosystem
 
 
 ## 🔢 Data (250 words max)
-Explain what data you used (both provided by WDL and external) and improvements you suggest to those datasets. Explain how those improvements would lead to a better solution.
-*Write here*
 
+Special attention should be put on any scaling mismatches, meaning cases where the spatial (or temporal) grain or extent doe not match between biodiversity and environmental data or within environmental data. In these cases, we need to make decisions about adequate **upscaling and downscaling strategies.**
+
+**absence data** are rarely available. In such cases, adequate background data or pseudo-absence data needs to be selected.
+
+for later model assessment we may wish to partition the data into training data and validation data (Hastie, Tibshirani, and Friedman 2009)
+
+*Climatological datasets* divide the calendar year into shorter time slices such as days, weeks, months or seasons, and for each slice, apply a summary statistic (e.g., mean, variance, frequency or probability) to many (often at least 10) years of observations made during that slice to estimate the long-term state
+
+Are contemporaneous covariates are necessary or climatological covariates are sufficient to model these associations?
+
+we acknowledge that current sampling abilities and requirements lead to imperfect models and potentially biased predictions and practical recommendations are critically needed for ecologists and managers.
+
+SDMs developed from climatological covariates are relevant for static management and used to predict important species habitats with a high potential for delineation of marine-protected areas and implementation of mitigation measures
+
+[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 
 ## 🧮 Methods and Techniques (250 words max)
 Tell us what methods and algorithms you used and the results you obtained.
-*Write here*
+
+Process-based modeling
+Global change includes changes in climate, habitat connectivity and nutrient dynamics at various spatial and temporal scales.
+
+the model should allow an exploration of how these changes affect outcomes. 
+
+Changing the scale of a process can alter the relative importance of key drivers, or disrupt the process altogether.
+
+Complex simulation models can be process-based, but a highly dimensional model will be difficult to analyze. As the number of estimated parameters increases, the size of the parameter space (i.e., the number of possible combinations of parameter values) increase
+
+[Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)
 
 
 ## 💡 Main Insights (300 words max)
@@ -75,13 +101,24 @@ Example:
 Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
 Example: Location of the accident on a map and suggest the fastest route from the dispatch centre.
 
+Torres et al. (2013) modelled the seasonal distribution of southern right whales (Eubalaena australis) by comparing the predicted habitat suitability maps with maps of shipping traffic to identify areas of increased risk of collision where mitigation measures could be implemented.
 
+[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 ### Scalability
 Discuss the scalability and the ease of implementation of your solution in the scope of the topic entity. Feel free to mention any road blocks you see and how they could be solved.
+Macroscale (Figure 4)
+animal distribution: Fisheries, historical catches, species coverage
+enviro data: sum of in situ databases, climatological oceanographic covariates
+temporal resolution: climatological 
 
+[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 
 ## 🌍 Social Impact Measurement
 This section will help to guide you on how to measure the impact of your product. Make sure that measurement is thoroughly quantitative, even if you need to estimate some of the numbers.
+
+The protection and restoration of coastal wetlands can be more cost effective than barrier construction as a means to reduce storm damage (Halpern et al. 2007, Costanza et al. 2008, although see Francis et al. 2011).
+
+[Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)
 ### Outcome
 If the outputs are your immediate results, describe your long-term results. What do you want your product to achieve? What ''good'' are you creating?
 Example: To decrease response time from dispatchers so that people in urgent need receive help faster.

@@ -57,6 +57,7 @@ We evaluated two classifiers, namely a linear regressor and a random forest regr
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
 *Write here*
 
+expected 6 month recovery
 
 ## 🛠️ Product
 
@@ -92,7 +93,6 @@ animal distribution: Fisheries, historical catches, species coverage
 enviro data: sum of in situ databases, climatological oceanographic covariates
 temporal resolution: climatological 
 
-[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 
 ## 🌍 Social Impact Measurement
 
@@ -108,8 +108,6 @@ their restoration in order to achieve healthy and productive oceans.
 scientific cooperation at all levels
 
 The protection and restoration of coastal wetlands can be more cost effective than barrier construction as a means to reduce storm damage (Halpern et al. 2007, Costanza et al. 2008, although see Francis et al. 2011).
-
-[Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)
 
 visit, work or study in Cascais Municipality
 

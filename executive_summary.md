@@ -49,7 +49,7 @@ Our primary objective was to prepare the data for forecasting regressors that co
 
 We manually partitioned the data into training and validation sets to specify a cutoff date (Timestamp('2016-05-23 00:00:00')) that allows for an evaluation of recovery after the Hercules storm. This date was chosen as a stamp for when the pier was re-established in the Summer of 2016.
 
- A pipeline for preprocessing and modeling was then constructed for reproducability. We evaluated two classifiers, namely a linear regressor and a random forest regressor. The latter generated a tree structure, enabling the calculation of feature importances and identifying the key factors that influence the abundance of mobile species.
+A pipeline for preprocessing and modeling was then constructed for reproducability. We evaluated two classifiers, namely a linear regressor and a random forest regressor. The latter generated a tree structure, enabling the calculation of feature importances and identifying the key factors that influence the abundance of mobile species.
 
 
 
@@ -57,6 +57,7 @@ We manually partitioned the data into training and validation sets to specify a 
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
 *Write here*
 
+phosphorous
 expected 6 month recovery
 
 ## 🛠️ Product
@@ -67,6 +68,8 @@ In this section you should define the product that can be created by using the m
 
 Define in **one sentence** what product(s) could be built out of the code you produced.
 Example: A dashboard that assists in traffic control
+
+realtime data
 
 ### Users
 
@@ -88,28 +91,8 @@ Example: Location of the accident on a map and suggest the fastest route from th
 
 Discuss the scalability and the ease of implementation of your solution in the scope of the topic entity. Feel free to mention any road blocks you see and how they could be solved.
 
-Macroscale (Figure 4)
-animal distribution: Fisheries, historical catches, species coverage
-enviro data: sum of in situ databases, climatological oceanographic covariates
-temporal resolution: climatological 
-
-
 ## 🌍 Social Impact Measurement
 
-This section will help to guide you on how to measure the impact of your product. Make sure that measurement is thoroughly quantitative, even if you need to estimate some of the numbers.
-
-14 Conserve and sustainably use the oceans, seas and marine resources for sustainable
-development
-
-14.2 By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for
-their restoration in order to achieve healthy and productive oceans.
-
-14.3 Minimize and address the impacts of ocean acidification, including through enhanced
-scientific cooperation at all levels
-
-The protection and restoration of coastal wetlands can be more cost effective than barrier construction as a means to reduce storm damage (Halpern et al. 2007, Costanza et al. 2008, although see Francis et al. 2011).
-
-visit, work or study in Cascais Municipality
 
 ### Outcome
 

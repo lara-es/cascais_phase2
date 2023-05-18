@@ -1,13 +1,11 @@
 ﻿# World Data League 2023
 
-
 ## Executive Summary Template
+
 This executive summary is one of the mandatory deliverables when you submit your solution. Its structure follows the WDL evaluation criteria and it has dedicated sections where you should add information. Make sure your executive summary covers all the sections since it will be an integral part of the Insights Report and your evaluation. Make sure your content is relevant and straight to the point.
 **There is no need to reach the maximum number of words.**
 
-
 Instructions:
-
 
 1. 🧱 Create a separate copy of this template and do not change the predefined structure
 2. 👥 Fill in the Authors section with the names of allteam members
@@ -16,50 +14,35 @@ Instructions:
 5. 🗑️ Remove this section (‘Executive Summary Template’) and any instructions inside other sections
 6. ⬆️ Upload the .md file to the submission platform.
 
-
 ## 🎯 Challenge
-*Insert challenge name here*
 
+Avencas Marine Protected Area: Predict the future of the local ecosystem and its species
 
 ## Team Name
-(Insert Team Name Here)
 
+JKL & Frank
 
 ## 👥 Authors
-Include all the authors that have worked on this submission. It is not obligatory to include all the team members if not everyone has worked on it. This will not impact the evaluation in any way.
-* Person 1
-* Person 2
-* Person 3
 
+* Joydeep Chatterjee
+* Kate Crawford
+* Lara Strachan
+* Frank Novak
 
 ## ✨ Introduction (250 words max)
-Provide a contextualization of the problem, together with an estimation of its size using real numbers and references. In this section you should demonstrate your understanding of the problem.
 
-As marine ecosystems undergo global climate change, there is an increasing need to incorporate potential shifts in the distribution of marine taxa into management plans
-
-We propose that the best models—those that effectively describe or predict marine animal distribution patterns at a desired temporal scale without utilizing unnecessarily high-resolution data—are obtained when the temporal characteristics of the animals’ distribution and environmental data sufficiently match the scale of the ecological question and the variability of the ecosystem
-
+We aim to develop a predictive model that provides insights into the ecological factors that impact the density of flora, sessile fauna and mobile fauna in the Marine Protected Area (MPA) of Avencas, near Lisbon. A short-term evaluation (starting in 2010) resulted in the reduction of anthropogenic stress through data collection, fishing community input, and visitor education. For long-term efforts, researchers strongly advised the establishment of a monitoring program, involving monthly surveys conducted by two experienced observers, for a minimum duration of 10 years. Our model aims to support these efforts, providing insights on ecological factors related to species abundance. Understanding the key influencing factors is essential for effective coastal zone management in response to climate change.
 
 ## 🔢 Data (250 words max)
 
-Special attention should be put on any scaling mismatches, meaning cases where the spatial (or temporal) grain or extent doe not match between biodiversity and environmental data or within environmental data. In these cases, we need to make decisions about adequate **upscaling and downscaling strategies.**
+Our model utilizes climatological covariates based on almost a decade of observations, providing sufficient data for estimating the long-term condition of the MPA. The analysis relied on comparing historical observations over the years to serve as absence data, aiding in interpreting changes in abundance measurements. While acknowledging the limitations of current sampling methods and the potential biases in our models and predictions, we were informed by the initial analysis conducted by the researchers who provided the dataset. They observed a decrease in densities of mobile species between 2013 and 2015, potentially influenced by the Hercules storm of 2014.
 
-**absence data** are rarely available. In such cases, adequate background data or pseudo-absence data needs to be selected.
 
-for later model assessment we may wish to partition the data into training data and validation data (Hastie, Tibshirani, and Friedman 2009)
 
-*Climatological datasets* divide the calendar year into shorter time slices such as days, weeks, months or seasons, and for each slice, apply a summary statistic (e.g., mean, variance, frequency or probability) to many (often at least 10) years of observations made during that slice to estimate the long-term state
-
-Are contemporaneous covariates are necessary or climatological covariates are sufficient to model these associations?
-
-we acknowledge that current sampling abilities and requirements lead to imperfect models and potentially biased predictions and practical recommendations are critically needed for ecologists and managers.
-
-SDMs developed from climatological covariates are relevant for static management and used to predict important species habitats with a high potential for delineation of marine-protected areas and implementation of mitigation measures
-
-[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 
 ## 🧮 Methods and Techniques (250 words max)
 Tell us what methods and algorithms you used and the results you obtained.
+Our focus was to prepare the data for forecasting regressors that could provide insight into the feature importances. We partitioned the data into training data and validation data with concern for temporal factors related to anomolies and drastic changes in ecological factors, such as the Hercules storm of 2014
 
 Process-based modeling
 Global change includes changes in climate, habitat connectivity and nutrient dynamics at various spatial and temporal scales.
@@ -113,12 +96,26 @@ temporal resolution: climatological
 
 [Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 
+
+
 ## 🌍 Social Impact Measurement
 This section will help to guide you on how to measure the impact of your product. Make sure that measurement is thoroughly quantitative, even if you need to estimate some of the numbers.
+
+14 Conserve and sustainably use the oceans, seas and marine resources for sustainable
+development
+
+14.2 By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for
+their restoration in order to achieve healthy and productive oceans.
+
+14.3 Minimize and address the impacts of ocean acidification, including through enhanced
+scientific cooperation at all levels
 
 The protection and restoration of coastal wetlands can be more cost effective than barrier construction as a means to reduce storm damage (Halpern et al. 2007, Costanza et al. 2008, although see Francis et al. 2011).
 
 [Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)
+
+visit, work or study in Cascais Municipality
+
 ### Outcome
 If the outputs are your immediate results, describe your long-term results. What do you want your product to achieve? What ''good'' are you creating?
 Example: To decrease response time from dispatchers so that people in urgent need receive help faster.
@@ -138,3 +135,14 @@ Since you cannot wait to see the impact of your product, estimate it. You can do
 Example:
 * *Based on model predictions*: Our model estimates a decrease of 6 minutes of the average dispatch time and a decrease of the average distance of 200 metres
 * *Based on proxy products*: Similar studies in other cities show that the dispatch time can be decreased by as much as 13 minutes, depending on the traffic intensity of that city.
+
+Ana Ferreira, Ana Sofia Alves, João Carlos Marques, Sónia Seixas,
+Ecosystem response to different management options in Marine Protected Areas (MPA): A case study of intertidal rocky shore communities,
+Ecological Indicators,
+Volume 81,
+2017,
+Pages 471-480,
+ISSN 1470-160X,
+https://doi.org/10.1016/j.ecolind.2017.06.028.
+
+[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)

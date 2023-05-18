@@ -1,23 +1,5 @@
 ﻿# World Data League 2023
 
-## Executive Summary Template
-
-This executive summary is one of the mandatory deliverables when you submit your solution. Its structure follows the WDL evaluation criteria and it has dedicated sections where you should add information. Make sure your executive summary covers all the sections since it will be an integral part of the Insights Report and your evaluation. Make sure your content is relevant and straight to the point.
-**There is no need to reach the maximum number of words.**
-
-Instructions:
-
-1. 🧱 Create a separate copy of this template and do not change the predefined structure
-2. 👥 Fill in the Authors section with the names of allteam members
-3. ✏️ Write your executive summary - make sure you write for a non-technical audience. 
-4. 📄 Fill in all the text sections
-5. 🗑️ Remove this section (‘Executive Summary Template’) and any instructions inside other sections
-6. ⬆️ Upload the .md file to the submission platform.
-
-## 🎯 Challenge
-
-Avencas Marine Protected Area: Predict the future of the local ecosystem and its species
-
 ## Team Name
 
 JKL & Frank

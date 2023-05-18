@@ -47,9 +47,9 @@ While acknowledging the limitations of current sampling methods and the potentia
 
 Our primary objective was to prepare the data for forecasting regressors that could offer valuable insights into feature importances. To achieve this, we initially focused on ecological factors and removed individual species occurrences, as models with high dimensions are challenging to analyze effectively. 
 
-We manually partitioned the data into training and validation sets, with a specific emphasis on predicting the abundance of mobile species before and after the Hercules storm of 2014. The preprocessed data was then modeled using a scikit-learn pipeline. 
+We manually partitioned the data into training and validation sets to specify a cutoff date (Timestamp('2016-05-23 00:00:00')) that allows for an evaluation of recovery after the Hercules storm. This date was chosen as a stamp for when the pier was re-established in the Summer of 2016.
 
-We evaluated two classifiers, namely a linear regressor and a random forest regressor. The latter generated a tree structure, enabling the calculation of feature importances and identifying the key factors that influence the abundance of mobile species.
+ A pipeline for preprocessing and modeling was then constructed for reproducability. We evaluated two classifiers, namely a linear regressor and a random forest regressor. The latter generated a tree structure, enabling the calculation of feature importances and identifying the key factors that influence the abundance of mobile species.
 
 
 

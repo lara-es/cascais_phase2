@@ -31,29 +31,26 @@ JKL & Frank
 
 ## ✨ Introduction (250 words max)
 
-We aim to develop a predictive model that provides insights into the ecological factors that impact the density of flora, sessile fauna and mobile fauna in the Marine Protected Area (MPA) of Avencas, near Lisbon. A short-term evaluation (starting in 2010) resulted in the reduction of anthropogenic stress through data collection, fishing community input, and visitor education. For long-term efforts, researchers strongly advised the establishment of a monitoring program, involving monthly surveys conducted by two experienced observers, for a minimum duration of 10 years. Our model aims to support these efforts, providing insights on ecological factors related to species abundance. Understanding the key influencing factors is essential for effective coastal zone management in response to climate change.
+We aim to develop a predictive model that provides insights into the ecological factors that impact the density of flora, sessile fauna and mobile fauna in the Marine Protected Area (MPA) of Avencas, near Lisbon. 
+
+A short-term evaluation (starting in 2010) resulted in the reduction of anthropogenic stress through data collection, fishing community input, and visitor education. For long-term efforts, researchers strongly advised the establishment of a monitoring program, involving monthly surveys conducted by two experienced observers, for a minimum duration of 10 years. 
+
+Our model aims to support these efforts, providing insights on ecological factors related to species abundance. Understanding the key influencing factors is essential for effective coastal zone management in response to climate change.
 
 ## 🔢 Data (250 words max)
 
-Our model utilizes climatological covariates based on almost a decade of observations, providing sufficient data for estimating the long-term condition of the MPA. The analysis relied on comparing historical observations over the years to serve as absence data, aiding in interpreting changes in abundance measurements. While acknowledging the limitations of current sampling methods and the potential biases in our models and predictions, we were informed by the initial analysis conducted by the researchers who provided the dataset. They observed a decrease in densities of mobile species between 2013 and 2015, potentially influenced by the Hercules storm of 2014.
+Our model utilizes climatological covariates based on almost a decade of observations, providing sufficient data for estimating the long-term condition of the MPA. The analysis relied on comparing historical observations over the years to serve as absence data, aiding in interpreting changes in abundance measurements.
 
-
-
+While acknowledging the limitations of current sampling methods and the potential biases in our models and predictions, we were informed by the initial analysis conducted by the researchers who provided the dataset. They observed a decrease in densities of mobile species between 2013 and 2015, potentially influenced by the Hercules storm of 2014.
 
 ## 🧮 Methods and Techniques (250 words max)
-Tell us what methods and algorithms you used and the results you obtained.
-Our focus was to prepare the data for forecasting regressors that could provide insight into the feature importances. We partitioned the data into training data and validation data with concern for temporal factors related to anomolies and drastic changes in ecological factors, such as the Hercules storm of 2014
 
-Process-based modeling
-Global change includes changes in climate, habitat connectivity and nutrient dynamics at various spatial and temporal scales.
+Our primary objective was to prepare the data for forecasting regressors that could offer valuable insights into feature importances. To achieve this, we initially focused on ecological factors and removed individual species occurrences, as models with high dimensions are challenging to analyze effectively. 
 
-the model should allow an exploration of how these changes affect outcomes. 
+We manually partitioned the data into training and validation sets, with a specific emphasis on predicting the abundance of mobile species before and after the Hercules storm of 2014. The preprocessed data was then modeled using a scikit-learn pipeline. 
 
-Changing the scale of a process can alter the relative importance of key drivers, or disrupt the process altogether.
+We evaluated two classifiers, namely a linear regressor and a random forest regressor. The latter generated a tree structure, enabling the calculation of feature importances and identifying the key factors that influence the abundance of mobile species.
 
-Complex simulation models can be process-based, but a highly dimensional model will be difficult to analyze. As the number of estimated parameters increases, the size of the parameter space (i.e., the number of possible combinations of parameter values) increase
-
-[Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)
 
 
 ## 💡 Main Insights (300 words max)
@@ -146,3 +143,5 @@ ISSN 1470-160X,
 https://doi.org/10.1016/j.ecolind.2017.06.028.
 
 [Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
+
+[Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)

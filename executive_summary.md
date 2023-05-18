@@ -59,33 +59,34 @@ Explain what you discovered from addressing this problem, such as interesting fa
 
 
 ## 🛠️ Product
+
 In this section you should define the product that can be created by using the model developed. Make sure that the product solves the problem in a holistic way, takes into account the constraints of the topic entities (specifically mention these constraints).
+
 ### Definition
+
 Define in **one sentence** what product(s) could be built out of the code you produced.
 Example: A dashboard that assists in traffic control
 
-
 ### Users
+
 Describe who would be the users of your product and for what purpose would they use it.
 Example: Traffic controllers use the dashboard during their work to better plan where to dispatch resources
 
-
 ### Activities
-Describe what features your product has.
-Example:
-* Predicts the most likely locations for traffic accidents
-* Suggests the fastest route from dispatch centres
+
+* Predicts the most likely ecological factors for mobile species abundance.
+* Suggests the how storms, like Hercules in 2014, impacted the environment and species in the MPA.
 
 
 ### Output
+
 Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
+
 Example: Location of the accident on a map and suggest the fastest route from the dispatch centre.
 
-Torres et al. (2013) modelled the seasonal distribution of southern right whales (Eubalaena australis) by comparing the predicted habitat suitability maps with maps of shipping traffic to identify areas of increased risk of collision where mitigation measures could be implemented.
-
-[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 ### Scalability
 Discuss the scalability and the ease of implementation of your solution in the scope of the topic entity. Feel free to mention any road blocks you see and how they could be solved.
+
 Macroscale (Figure 4)
 animal distribution: Fisheries, historical catches, species coverage
 enviro data: sum of in situ databases, climatological oceanographic covariates

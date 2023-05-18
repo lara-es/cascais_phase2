@@ -77,7 +77,6 @@ Example: Traffic controllers use the dashboard during their work to better plan 
 * Predicts the most likely ecological factors for mobile species abundance.
 * Suggests the how storms, like Hercules in 2014, impacted the environment and species in the MPA.
 
-
 ### Output
 
 Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
@@ -85,6 +84,7 @@ Describe what the product outputs to the users and how it does that. You can add
 Example: Location of the accident on a map and suggest the fastest route from the dispatch centre.
 
 ### Scalability
+
 Discuss the scalability and the ease of implementation of your solution in the scope of the topic entity. Feel free to mention any road blocks you see and how they could be solved.
 
 Macroscale (Figure 4)
@@ -94,9 +94,8 @@ temporal resolution: climatological
 
 [Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
 
-
-
 ## 🌍 Social Impact Measurement
+
 This section will help to guide you on how to measure the impact of your product. Make sure that measurement is thoroughly quantitative, even if you need to estimate some of the numbers.
 
 14 Conserve and sustainably use the oceans, seas and marine resources for sustainable
@@ -115,18 +114,20 @@ The protection and restoration of coastal wetlands can be more cost effective th
 visit, work or study in Cascais Municipality
 
 ### Outcome
+
 If the outputs are your immediate results, describe your long-term results. What do you want your product to achieve? What ''good'' are you creating?
 Example: To decrease response time from dispatchers so that people in urgent need receive help faster.
 
-
 ### Impact Metrics
+
 From the outcome, define **2 to 4 metrics** that measure, whether you are achieving that outcome or not.
 Example:
+
 * Average Dispatch Time
 * Average Distance from Accident Location and Dispatch Center
 
-
 ### Impact Measurement
+
 Since you cannot wait to see the impact of your product, estimate it. You can do that by either using the estimations/predictions of your model, market research, products from proxy industries and/or similar locations, etc.
 
 
@@ -134,15 +135,10 @@ Example:
 * *Based on model predictions*: Our model estimates a decrease of 6 minutes of the average dispatch time and a decrease of the average distance of 200 metres
 * *Based on proxy products*: Similar studies in other cities show that the dispatch time can be decreased by as much as 13 minutes, depending on the traffic intensity of that city.
 
-Ana Ferreira, Ana Sofia Alves, João Carlos Marques, Sónia Seixas,
-Ecosystem response to different management options in Marine Protected Areas (MPA): A case study of intertidal rocky shore communities,
-Ecological Indicators,
-Volume 81,
-2017,
-Pages 471-480,
-ISSN 1470-160X,
-https://doi.org/10.1016/j.ecolind.2017.06.028.
+### Citations
 
-[Source](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12609)
+Cuddington, K., M.-J. Fortin, L. R. Gerber, A. Hastings, A. Liebhold, M. O'Connor, and C. Ray. 2013. Process-based models are required to manage ecological systems in a changing world. Ecosphere 4(2):20. http://dx.doi.org/10.1890/ES12-00178.1
 
-[Source](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES12-00178.1)
+Ferreira, A, Alves, AS, Marques, JC, Seixas, S. Ecosystem response to different management options in Marine Protected Areas (MPA): A case study of intertidal rocky shore communities, Ecological Indicators, Volume 81, 2017, Pages 471-480, ISSN 1470-160X, https://doi.org/10.1016/j.ecolind.2017.06.028.
+
+Mannocci, L, Boustany, AM, Roberts, JJ, et al. Temporal resolutions in species distribution models of highly mobile marine animals: Recommendations for ecologists and managers. Diversity Distrib. 2017; 23: 1098– 1109. https://doi.org/10.1111/ddi.12609

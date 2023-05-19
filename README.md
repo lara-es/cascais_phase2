@@ -86,12 +86,12 @@ To increase the abundance of mobile species in the area and decrease the spread 
 
 ### Impact Measurement
 
-Since you cannot wait to see the impact of your product, estimate it. You can do that by either using the estimations/predictions of your model, market research, products from proxy industries and/or similar locations, etc.
+The model had predicted that mobile species would have an abundance value of 0.33 for one of the final dates in November 2020. To test the affect of temperatures and tides on species occurences, data was fabricated to model conditions in December 2020 if they were above average values for the tide and water temperature. Additionally, the test data models a higher percentage of sessile coverage in Zone. 
 
+The result of this test was a predicted value that fell below the predicted trend line by 0.17 units and above the actual observed value by 0.08 units (as seen above). By adjusting the conditions to reflect above above average measurements of ecological features, the model was able to predict more accurate results. This is in spite of a 0.25 unit difference between the actual value and fitted value the predicted with using the real test data. 
 
-Example:
-* *Based on model predictions*: Our model estimates a decrease of 6 minutes of the average dispatch time and a decrease of the average distance of 200 metres
-* *Based on proxy products*: Similar studies in other cities show that the dispatch time can be decreased by as much as 13 minutes, depending on the traffic intensity of that city.
+* *Based on model predictions*: Rising tides, water temp, and more invasive species have been causing the AMPA to not return to normal levels.
+* Based on the results of this study, if declining native flora and fauna were reintroduced into the area, Avencas fauna communities could be indistinguishable from a healthy, or “natural”, area in 3 years.
 
 ### Citations
 

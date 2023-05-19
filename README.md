@@ -11,18 +11,18 @@ JKL & Frank
 * Lara Strachan
 * Frank Novak
 
-## ✨ Introduction (250 words max)
+## ✨ Introduction 
 
 We aim to develop a predictive model that provides insights into the ecological factors that impact the density of mobile species found in the Avencas Marine Protected Area (AMPA).
 
 A short-term evaluation (starting in 2010) resulted in the reduction of anthropogenic stress through data collection, fishing community input, and visitor education. For long-term efforts, researchers strongly advised the establishment of a monitoring program. Our model aims to support these efforts, providing insights on ecological factors related to species abundance. Understanding influential factors is essential for effective coastal zone management in response to climate change.
 
-## 🔢 Data (250 words max)
+## 🔢 Data 
 
 Our model utilizes climatological covariates based on almost a decade of observations, providing sufficient data for estimating changes in species abundance and the long-term condition of the MPA.
 While acknowledging the limitations of current sampling methods and the potential biases in our models and predictions, we were informed by the initial analysis conducted by the researchers who provided the dataset. They observed a decrease in densities of mobile species between 2013 and 2015, potentially influenced by the Hercules storm of 2014. 
 
-## 🧮 Methods and Techniques (250 words max)
+## 🧮 Methods and Techniques 
 
 Our primary objective was to prepare the data for forecasting regressors that could offer valuable insights into ecological factors that have a larger effect on predicted species occurences. To achieve this, we initially focused on ecological factors and removed individual species occurrences, as models with high dimensions are challenging to analyze effectively. 
 
@@ -33,7 +33,7 @@ A pipeline for preprocessing and modeling was then constructed for reproducabili
 To create a compelling and accurate visual aid to better understand abundance through time, the data had to be preprocessed and parsed into observations by zone and then joined to the corresponding shapefile in ArcGIS. This enables exploration by time, geographic location, and observation data. An interactive web app was then created and deployed, with additional layers added, including Healthy Beach Program locations and Coastal Zone Potential initiatives to better illustrate the environmental factors potentially impacting the area.
 
 
-## 💡 Main Insights (300 words max)
+## 💡 Main Insights
 
 One significant finding pertained to Cladophora sp., an invasive species known for its aggressive behavior and high mortality impact on rival organisms. What stood out was its ability to generate elevated concentrations of dissolved phosphorus, a vital nutrient for algae growth.
 

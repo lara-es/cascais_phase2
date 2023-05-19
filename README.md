@@ -65,9 +65,7 @@ Residents of the area, fishing communities, and people involved in the tourism/b
 
 ### Output
 
-Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
-
-Example: Location of the accident on a map and suggest the fastest route from the dispatch centre.
+Location of mobile species within various protected zones over time. See a historical map [here](https://lstrachan.maps.arcgis.com/apps/instant/slider/index.html?appid=5b02eae0a86f438783c6b082ab4a5209&locale=en-us). 
 
 ### Scalability
 
@@ -83,11 +81,8 @@ To increase the abundance of mobile species in the area and decrease the spread 
 
 ### Impact Metrics
 
-From the outcome, define **2 to 4 metrics** that measure, whether you are achieving that outcome or not.
-Example:
-
-* Average Dispatch Time
-* Average Distance from Accident Location and Dispatch Center
+* Average Abundance (ind/m2) by month
+* Total coverage of an invasive species 
 
 ### Impact Measurement
 

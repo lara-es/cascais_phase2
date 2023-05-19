@@ -36,11 +36,11 @@ A pipeline for preprocessing and modeling was then constructed for reproducabili
 
 
 ## 💡 Main Insights (300 words max)
-Explain what you discovered from addressing this problem, such as interesting facts or statistics.
-*Write here*
+One significant finding pertained to Cladophora sp., an invasive species known for its aggressive behavior and high mortality impact on rival organisms. What stood out was its ability to generate elevated concentrations of dissolved phosphorus, a vital nutrient for algae growth.
 
-phosphorous
-expected 6 month recovery
+Further research highlighted the potential implications of Cladophora sp.'s invasion. Its dominance in aquatic ecosystems can disrupt the balance of nutrient availability, potentially leading to harmful algal blooms and the decline of native species. Understanding the mechanisms driving Cladophora sp.'s invasiveness and its ecological impacts will be crucial for effective management and conservation efforts in affected areas.
+
+Lastly, I examined the effects of extreme weather events, specifically the impact of storms like Hercules in 2014, on a Marine Protected Area (MPA). This investigation revealed compelling evidence of how such storms can significantly influence the environment and species within the MPA. Seen in the data, it required almost 6 months after the storm passed for the abudence levels to reach levels once had before.
 
 ## 🛠️ Product
 

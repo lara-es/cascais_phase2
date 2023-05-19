@@ -86,16 +86,13 @@ To increase the abundance of mobile species in the area and decrease the spread 
 
 ### Impact Measurement
 
-<<<<<<< HEAD
 The model had predicted that mobile species would have an abundance value of 0.33 for one of the final dates in November 2020. To test the affect of temperatures and tides on species occurences, data was fabricated to model conditions in December 2020 if they were above average values for the tide and water temperature. Additionally, the test data models a higher percentage of sessile coverage in Zone. 
 
 The result of this test was a predicted value that fell below the predicted trend line by 0.17 units and above the actual observed value by 0.08 units (as seen above). By adjusting the conditions to reflect above above average measurements of ecological features, the model was able to predict more accurate results. This is in spite of a 0.25 unit difference between the actual value and fitted value the predicted with using the real test data. 
 
-* *Based on model predictions*: Rising tides, water temp, and more invasive species have been causing the AMPA to not return to normal levels.
-* Based on the results of this study, if declining native flora and fauna were reintroduced into the area, Avencas fauna communities could be indistinguishable from a healthy, or “natural”, area in 3 years.
-=======
-Based on the results of [this study](https://www.science.org/doi/10.1126/sciadv.abc6434), if declining native flora and fauna were reintroduced into the area, Avencas fauna communities could be indistinguishable from a healthy, or “natural”, area in 3 years.
->>>>>>> 29281c65c61cdae7d9fc3e51253329be806e4f9f
+* Based on model predictions*: Rising tides, water temp, and more invasive species have been causing the AMPA to not return to normal levels.
+* Based on the results of [this study](https://www.science.org/doi/10.1126/sciadv.abc6434), if declining native flora and fauna were reintroduced into the area, Avencas fauna communities could be indistinguishable from a healthy, or “natural”, area in 3 years.
+
 
 ### Citations
 

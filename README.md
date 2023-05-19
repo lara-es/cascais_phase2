@@ -33,6 +33,7 @@ We manually partitioned the data into training and validation sets to specify a 
 
 A pipeline for preprocessing and modeling was then constructed for reproducability. We evaluated two classifiers, namely a linear regressor and a random forest regressor. The latter generated a tree structure, enabling the calculation of feature importances and identifying the key factors that influence the abundance of mobile species.
 
+To create a compelling and accurate visual aid to better understand abundance through time, the data had to be preprocessed and parsed into observations by zone and then joined to the corresponding shapefile in ArcGIS. This enables exploration by time, geographic location, and observation data. An interactive web app was then created and deployed, with additional layers added, including Healthy Beach Program locations and Coastal Zone Potential initiatives to better illustrate the environmental factors potentially impacting the area.
 
 
 ## 💡 Main Insights (300 words max)
@@ -46,17 +47,26 @@ Secondly, we examined the effects of extreme weather events, specifically the im
 
 In this section you should define the product that can be created by using the model developed. Make sure that the product solves the problem in a holistic way, takes into account the constraints of the topic entities (specifically mention these constraints).
 
+Utilizing both forecasting and visualization, an end product that could be of benefit to the protection of the Avencas area would be a map that illustrates areas of predicted low species abundance and/or high invasive species prevalence. Predictions from the forecasting model could be fed into the ArcGIS map, and researchers or other advocates for the area could launch a preemptive intervention by limiting fishing or recreational activities in the area, or doing invasive species mitigation. 
+
+Further refinement of the model, and therefore accuracy of the predictions, could be gained by installing permanent sensors in the area to measure tide levels and water temperature. Making access to this map publicly and widely available could help impart ownership to the residents of this area. Having public buy-in to the protection and restoration efforts is imperative to any initiative’s long-term success. 
+
+Factors beyond the control of any individual or community include the impacts of climate change. Extreme weather events, global temperature increases, and rising ocean levels are all existential threats to the ecosystem of Avencas and beyond. While regional efforts are necessary and beneficial, large-scale changes by the organizations and industries responsible for significant environmental harms must be a part of the conversation.
+
+
 ### Definition
 
 Define in **one sentence** what product(s) could be built out of the code you produced.
 Example: A dashboard that assists in traffic control
 
-realtime data
+A real-time and predictive interactive map that visualizes species abundance and invasive species prevalence by zone.
 
 ### Users
 
 Describe who would be the users of your product and for what purpose would they use it.
 Example: Traffic controllers use the dashboard during their work to better plan where to dispatch resources
+
+Residents of the area, fishermen, and people involved in the tourism/boating industry could all use the map to plan their activities in a way that has the least negative impact on the ecosystem. Researchers, policymakers, and environmental protectors could use this to inform any potential interventions.
 
 ### Activities
 
@@ -72,6 +82,9 @@ Example: Location of the accident on a map and suggest the fastest route from th
 ### Scalability
 
 Discuss the scalability and the ease of implementation of your solution in the scope of the topic entity. Feel free to mention any road blocks you see and how they could be solved.
+
+This solution could certainly be expanded to encompass any areas where observations are being collected. Further efforts could be made to ease the labor costs of collecting these observations, such as using sensors, underwater cameras, and satellite observations. Computational costs would increase as the size and scope of the data increase. 
+Different habitats can have wildly different factors that impact them, and different criteria defining what “healthy” looks like, so that could pose a challenge. Training models on only the relevant data for that area, as opposed to broader regions, could mitigate this.
 
 ## 🌍 Social Impact Measurement
 

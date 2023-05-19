@@ -86,12 +86,7 @@ To increase the abundance of mobile species in the area and decrease the spread 
 
 ### Impact Measurement
 
-Since you cannot wait to see the impact of your product, estimate it. You can do that by either using the estimations/predictions of your model, market research, products from proxy industries and/or similar locations, etc.
-
-
-Example:
-* *Based on model predictions*: Our model estimates a decrease of 6 minutes of the average dispatch time and a decrease of the average distance of 200 metres
-* *Based on proxy products*: Similar studies in other cities show that the dispatch time can be decreased by as much as 13 minutes, depending on the traffic intensity of that city.
+Based on the results of [this study](https://www.science.org/doi/10.1126/sciadv.abc6434), if declining native flora and fauna were reintroduced into the area, Avencas fauna communities could be indistinguishable from a healthy, or “natural”, area in 3 years.
 
 ### Citations
 
@@ -100,3 +95,5 @@ Cuddington, K., M.-J. Fortin, L. R. Gerber, A. Hastings, A. Liebhold, M. O'Conno
 Ferreira, A, Alves, AS, Marques, JC, Seixas, S. Ecosystem response to different management options in Marine Protected Areas (MPA): A case study of intertidal rocky shore communities, Ecological Indicators, Volume 81, 2017, Pages 471-480, ISSN 1470-160X, https://doi.org/10.1016/j.ecolind.2017.06.028.
 
 Mannocci, L, Boustany, AM, Roberts, JJ, et al. Temporal resolutions in species distribution models of highly mobile marine animals: Recommendations for ecologists and managers. Diversity Distrib. 2017; 23: 1098– 1109. https://doi.org/10.1111/ddi.12609
+
+Robert J. Orth et al. ,Restoration of seagrass habitat leads to rapid recovery of coastal ecosystem services.Sci. Adv.6,eabc6434(2020).DOI:10.1126/sciadv.abc6434

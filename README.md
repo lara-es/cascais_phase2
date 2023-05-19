@@ -96,4 +96,4 @@ Ferreira, A, Alves, AS, Marques, JC, Seixas, S. Ecosystem response to different 
 
 Mannocci, L, Boustany, AM, Roberts, JJ, et al. Temporal resolutions in species distribution models of highly mobile marine animals: Recommendations for ecologists and managers. Diversity Distrib. 2017; 23: 1098– 1109. https://doi.org/10.1111/ddi.12609
 
-Robert J. Orth et al. ,Restoration of seagrass habitat leads to rapid recovery of coastal ecosystem services.Sci. Adv.6,eabc6434(2020).DOI:10.1126/sciadv.abc6434
+Robert J. Orth et al., Restoration of seagrass habitat leads to rapid recovery of coastal ecosystem services. Sci. Adv.6,eabc6434(2020). DOI:10.1126/sciadv.abc6434 https://www.science.org/doi/10.1126/sciadv.abc6434

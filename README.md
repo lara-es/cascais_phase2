@@ -17,6 +17,8 @@ We aim to develop a predictive model that provides insights into the ecological 
 
 A short-term evaluation (starting in 2010) resulted in the reduction of anthropogenic stress through data collection, fishing community input, and visitor education. For long-term efforts, researchers strongly advised the establishment of a monitoring program. Our model aims to support these efforts, providing insights on ecological factors related to species abundance. Understanding influential factors is essential for effective coastal zone management in response to climate change.
 
+View the a brief presentation [here](https://drive.google.com/file/d/1bLEVNeeCjZuVy2r_uxni9DTNOlXBfTIU/view?usp=sharing).
+
 ## 🔢 Data 
 
 Our model utilizes climatological covariates based on almost a decade of observations, providing sufficient data for estimating changes in species abundance and the long-term condition of the MPA.
